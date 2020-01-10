@@ -2,22 +2,12 @@
 #include <memory>
 #include <vector>
 
+#include "DataStructures/Tree/Tree.h"
+
 namespace Amazon
 {
 
-struct TreeNode
-{
-	TreeNode(int val)
-		:	val		(val)
-		,	left	(nullptr)
-		,	right	(nullptr)
-	{
-	}
-
-	int							val;
-	std::shared_ptr<TreeNode>	left;
-	std::shared_ptr<TreeNode>	right;
-};
+using namespace DataStructures;
 
 class MaxAverageSubtree
 {

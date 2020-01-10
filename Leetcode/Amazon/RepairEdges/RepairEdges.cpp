@@ -4,7 +4,6 @@
 #include <map>
 
 using namespace Amazon;
-using namespace DataStructures;
 
 RepairEdges::RepairEdges(std::vector<std::vector<int>>& connections, std::vector<std::vector<int>>& repairs, int n)
 	:	graph	 (n, connections.size() + repairs.size())

@@ -11,12 +11,12 @@ using namespace Amazon;
 
 int main()
 {
-	std::vector<std::vector<int>> connections	= { {1, 2}, {2, 3}, {4, 5}, {5, 6}, {1, 5}, {2, 4}, {3, 4} };
-	std::vector<std::vector<int>> repairs		= { {1, 5, 110}, {2, 4, 84}, {3, 4, 79} };
+	std::vector<std::wstring> products = { L"mobile",L"mouse",L"moneypot",L"monitor",L"mousepad" };
+	std::wstring word = L"mouse";
 
-	RepairEdges r(connections, repairs, 6);
+	Suggestion s(word, products);
 
-	std::cout << r.minCostToRepair() << std::endl;
+	s.suggestedProducts();
 
 	return 0;
 }

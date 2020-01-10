@@ -126,6 +126,8 @@
     <ClCompile Include="Amazon\TwoSum\TwoSum.cpp" />
     <ClCompile Include="Amazon\Zombies\Zombies.cpp" />
     <ClCompile Include="DataStructures\Graph\Graph.cpp" />
+    <ClCompile Include="DataStructures\Tree\Tree.cpp" />
+    <ClCompile Include="DataStructures\Trie\Trie.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +138,8 @@
     <ClInclude Include="Amazon\TwoSum\TwoSum.h" />
     <ClInclude Include="Amazon\Zombies\Zombies.h" />
     <ClInclude Include="DataStructures\Graph\Graph.h" />
+    <ClInclude Include="DataStructures\Tree\Tree.h" />
+    <ClInclude Include="DataStructures\Trie\Trie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
