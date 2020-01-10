@@ -3,10 +3,11 @@
 #include <algorithm>
 
 using namespace Amazon;
+using namespace DataStructures;
 
 Cities::Cities(std::vector<std::vector<int>>& connections, int n)
-	:	graph (n, connections.size())
-	,	parent(n, -1)
+	:	graph		(n, connections.size())
+	,	unionFind	(n)
 {
 	for (const auto& connection: connections) graph.edges.push_back(std::make_shared<Edge>(connection[0]-1, connection[1]-1, connection[2]));
 
@@ -28,41 +29,13 @@ int Cities::minimumCost()
 
 		if (!edge) continue;
 
-		if (createsCycle(edge)) continue;
+		if (unionFind.createsCycle(edge)) continue;
 
-		createUnion(edge->src, edge->dst);
+		unionFind.createUnion(edge->src, edge->dst);
 		
 		clusters--;
 		distance += edge->weight;
 	}
 
 	return clusters == 1 ? distance : -1;
-}
-
-bool Cities::createsCycle(const std::shared_ptr<Edge>& edge)
-{
-	if (!edge) return true;
-
-	int start	= edge->src;
-	int end		= edge->dst;
-
-	int parentStart = find(start);
-	int parentEnd	= find(end);
-
-	return parentStart == parentEnd;
-}
-
-int Cities::find(int val)
-{
-	if (parent[val] == -1) return val;
-
-	return find(parent[val]);
-}
-
-void Cities::createUnion(int x, int y)
-{
-	int parentX = find(x);
-	int parentY = find(y);
-
-	if (parentX != parentY) parent[parentX] = parentY;
 }

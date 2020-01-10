@@ -5,14 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Amazon">
       <UniqueIdentifier>{3020e6b0-ffe7-459a-93e7-1d78827bb465}</UniqueIdentifier>
     </Filter>
@@ -30,6 +22,18 @@
     </Filter>
     <Filter Include="Amazon\MaxAverageSubtree">
       <UniqueIdentifier>{5b6e6c4f-e640-4740-be9b-7c82318de209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\RepairEdges">
+      <UniqueIdentifier>{76b52c26-6032-4ccd-80f2-260e66a0dedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{9b9b2d0e-45f8-4c92-b46e-693014c7771d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\Graph">
+      <UniqueIdentifier>{58371e4d-935e-4cc8-ad77-ae7b89683ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\Tree">
+      <UniqueIdentifier>{6517d0cb-29b5-4f8f-bee1-dd2e13a2907d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +55,12 @@
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp">
       <Filter>Amazon\MaxAverageSubtree</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\RepairEdges\RepairEdges.cpp">
+      <Filter>Amazon\RepairEdges</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructures\Graph\Graph.cpp">
+      <Filter>DataStructures\Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -67,6 +77,12 @@
     </ClInclude>
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h">
       <Filter>Amazon\MaxAverageSubtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\RepairEdges\RepairEdges.h">
+      <Filter>Amazon\RepairEdges</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Graph\Graph.h">
+      <Filter>DataStructures\Graph</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

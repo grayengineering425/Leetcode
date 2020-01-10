@@ -1,7 +1,4 @@
 #pragma once
-#include <vector>
-#include <memory>
-
 #include "DataStructures/Graph/Graph.h"
 
 namespace Amazon
@@ -9,14 +6,12 @@ namespace Amazon
 
 using namespace DataStructures;
 
-class Cities
+class RepairEdges
 {
 public:
-	Cities(std::vector<std::vector<int>>& connections, int n);
+	RepairEdges(std::vector<std::vector<int>>& connections, std::vector<std::vector<int>>& repairs, int n);
 
-	int minimumCost();
-
-private:
+	int minCostToRepair();
 
 private:
 	Graph		graph;

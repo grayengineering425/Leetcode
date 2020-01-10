@@ -58,15 +58,19 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Leetcode.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Leetcode.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Leetcode.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Leetcode.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />
@@ -117,17 +121,21 @@
   <ItemGroup>
     <ClCompile Include="Amazon\Cities\Cities.cpp" />
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
+    <ClCompile Include="Amazon\RepairEdges\RepairEdges.cpp" />
     <ClCompile Include="Amazon\SearchSuggestion\Suggestion.cpp" />
     <ClCompile Include="Amazon\TwoSum\TwoSum.cpp" />
     <ClCompile Include="Amazon\Zombies\Zombies.cpp" />
+    <ClCompile Include="DataStructures\Graph\Graph.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Cities\Cities.h" />
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
+    <ClInclude Include="Amazon\RepairEdges\RepairEdges.h" />
     <ClInclude Include="Amazon\SearchSuggestion\Suggestion.h" />
     <ClInclude Include="Amazon\TwoSum\TwoSum.h" />
     <ClInclude Include="Amazon\Zombies\Zombies.h" />
+    <ClInclude Include="DataStructures\Graph\Graph.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
