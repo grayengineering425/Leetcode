@@ -115,12 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Amazon\Cities\Cities.cpp" />
+    <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
     <ClCompile Include="Amazon\SearchSuggestion\Suggestion.cpp" />
+    <ClCompile Include="Amazon\TwoSum\TwoSum.cpp" />
     <ClCompile Include="Amazon\Zombies\Zombies.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Amazon\Cities\Cities.h" />
+    <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
     <ClInclude Include="Amazon\SearchSuggestion\Suggestion.h" />
+    <ClInclude Include="Amazon\TwoSum\TwoSum.h" />
     <ClInclude Include="Amazon\Zombies\Zombies.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

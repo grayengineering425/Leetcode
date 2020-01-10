@@ -22,6 +22,15 @@
     <Filter Include="Amazon\SearchSuggestion">
       <UniqueIdentifier>{c8282a17-49cd-4826-b4bf-355efd27ecab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\Cities">
+      <UniqueIdentifier>{97434e37-98a5-46b7-9429-fe6d5f2f1339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\TwoSum">
+      <UniqueIdentifier>{aa8b0273-c77d-4549-a080-ca57752d6d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\MaxAverageSubtree">
+      <UniqueIdentifier>{5b6e6c4f-e640-4740-be9b-7c82318de209}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +42,15 @@
     <ClCompile Include="Amazon\SearchSuggestion\Suggestion.cpp">
       <Filter>Amazon\SearchSuggestion</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\Cities\Cities.cpp">
+      <Filter>Amazon\Cities</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\TwoSum\TwoSum.cpp">
+      <Filter>Amazon\TwoSum</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp">
+      <Filter>Amazon\MaxAverageSubtree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -40,6 +58,15 @@
     </ClInclude>
     <ClInclude Include="Amazon\SearchSuggestion\Suggestion.h">
       <Filter>Amazon\SearchSuggestion</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\Cities\Cities.h">
+      <Filter>Amazon\Cities</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\TwoSum\TwoSum.h">
+      <Filter>Amazon\TwoSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h">
+      <Filter>Amazon\MaxAverageSubtree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

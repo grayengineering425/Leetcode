@@ -1,5 +1,8 @@
 #include "Amazon/Zombies/Zombies.h"
 #include "Amazon/SearchSuggestion/Suggestion.h"
+#include "Amazon/Cities/Cities.h"
+#include "Amazon/TwoSum/TwoSum.h"
+#include "Amazon/MaxAverageSubtree/MaxAverageSubtree.h"
 
 #include <iostream>
 
@@ -7,12 +10,16 @@ using namespace Amazon;
 
 int main()
 {
-	std::wstring searchWord					= L"tatiana";
-	std::vector<std::wstring> suggestions	= { L"havana" };
+	std::shared_ptr<TreeNode> t5 = std::make_shared<TreeNode>(5);
+	std::shared_ptr<TreeNode> t6 = std::make_shared<TreeNode>(6);
+	std::shared_ptr<TreeNode> t1 = std::make_shared<TreeNode>(1);
 
-	Suggestion s(searchWord, suggestions);
+	t5->left = t6;
+	t5->right= t1;
 
-	auto c = s.suggestedProducts();
+	MaxAverageSubtree m(t5);
+
+	std::cout << m.getMaximumAverage() << std::endl;
 
 	return 0;
 }
