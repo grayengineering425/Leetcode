@@ -41,6 +41,9 @@
     <Filter Include="Amazon\Spiral">
       <UniqueIdentifier>{4520d0b1-e5da-48d6-9816-5b14457748d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\LongestPalindrome">
+      <UniqueIdentifier>{dcac2da9-aca6-43e5-9cd8-585e2c201336}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -76,6 +79,9 @@
     <ClCompile Include="Amazon\Spiral\Spiral.cpp">
       <Filter>Amazon\Spiral</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\LongestPalindrome\LongestPalindrome.cpp">
+      <Filter>Amazon\LongestPalindrome</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -107,6 +113,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\Spiral\Spiral.h">
       <Filter>Amazon\Spiral</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\LongestPalindrome\LongestPalindrome.h">
+      <Filter>Amazon\LongestPalindrome</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
