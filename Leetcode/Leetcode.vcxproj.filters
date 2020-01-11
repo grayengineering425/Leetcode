@@ -38,6 +38,9 @@
     <Filter Include="DataStructures\Trie">
       <UniqueIdentifier>{c2d23be5-67ca-433a-b8ac-3626d82678e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\Spiral">
+      <UniqueIdentifier>{4520d0b1-e5da-48d6-9816-5b14457748d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -70,6 +73,9 @@
     <ClCompile Include="DataStructures\Tree\Tree.cpp">
       <Filter>DataStructures\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\Spiral\Spiral.cpp">
+      <Filter>Amazon\Spiral</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -98,6 +104,9 @@
     </ClInclude>
     <ClInclude Include="DataStructures\Tree\Tree.h">
       <Filter>DataStructures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\Spiral\Spiral.h">
+      <Filter>Amazon\Spiral</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

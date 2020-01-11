@@ -4,19 +4,30 @@
 #include "Amazon/TwoSum/TwoSum.h"
 #include "Amazon/MaxAverageSubtree/MaxAverageSubtree.h"
 #include "Amazon/RepairEdges/RepairEdges.h"
+#include "Amazon/Spiral/Spiral.h"
 
 #include <iostream>
+#include <string>
 
 using namespace Amazon;
 
 int main()
 {
-	std::vector<std::wstring> products = { L"mobile",L"mouse",L"moneypot",L"monitor",L"mousepad" };
-	std::wstring word = L"mouse";
+	Spiral s(10);
 
-	Suggestion s(word, products);
+	int maxSize = 4;
 
-	s.suggestedProducts();
+	auto spiral = s.generateMatrix();
 
+	for (int i=0; i<spiral	 .size(); ++i){
+	for (int j=0; j<spiral[i].size(); ++j)
+	{
+		std::string val = std::to_string(spiral[i][j]);
+
+		std::cout << val;
+
+		for (int k=val.size(); k<maxSize; ++k) std::cout << " ";
+	} std::cout << "\n"; }
+	
 	return 0;
 }
