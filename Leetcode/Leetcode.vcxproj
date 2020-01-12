@@ -124,6 +124,7 @@
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
     <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp" />
     <ClCompile Include="Amazon\RepairEdges\RepairEdges.cpp" />
+    <ClCompile Include="Amazon\Search2D\Search2D.cpp" />
     <ClCompile Include="Amazon\SearchSuggestion\Suggestion.cpp" />
     <ClCompile Include="Amazon\Spiral\Spiral.cpp" />
     <ClCompile Include="Amazon\TwoSum\TwoSum.cpp" />
@@ -139,6 +140,7 @@
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
     <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h" />
     <ClInclude Include="Amazon\RepairEdges\RepairEdges.h" />
+    <ClInclude Include="Amazon\Search2D\Search2D.h" />
     <ClInclude Include="Amazon\SearchSuggestion\Suggestion.h" />
     <ClInclude Include="Amazon\Spiral\Spiral.h" />
     <ClInclude Include="Amazon\TwoSum\TwoSum.h" />

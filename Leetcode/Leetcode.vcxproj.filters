@@ -47,6 +47,9 @@
     <Filter Include="Amazon\MaxMinPath">
       <UniqueIdentifier>{89d06095-e590-4ba0-a23a-53414e9f5e79}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\Search2D">
+      <UniqueIdentifier>{914a6f42-391c-4b0c-b5f9-10ca6a430f7b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -88,6 +91,9 @@
     <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp">
       <Filter>Amazon\MaxMinPath</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\Search2D\Search2D.cpp">
+      <Filter>Amazon\Search2D</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -125,6 +131,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h">
       <Filter>Amazon\MaxMinPath</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\Search2D\Search2D.h">
+      <Filter>Amazon\Search2D</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
