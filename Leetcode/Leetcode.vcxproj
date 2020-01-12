@@ -122,6 +122,7 @@
     <ClCompile Include="Amazon\Cities\Cities.cpp" />
     <ClCompile Include="Amazon\LongestPalindrome\LongestPalindrome.cpp" />
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
+    <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp" />
     <ClCompile Include="Amazon\RepairEdges\RepairEdges.cpp" />
     <ClCompile Include="Amazon\SearchSuggestion\Suggestion.cpp" />
     <ClCompile Include="Amazon\Spiral\Spiral.cpp" />
@@ -136,6 +137,7 @@
     <ClInclude Include="Amazon\Cities\Cities.h" />
     <ClInclude Include="Amazon\LongestPalindrome\LongestPalindrome.h" />
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
+    <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h" />
     <ClInclude Include="Amazon\RepairEdges\RepairEdges.h" />
     <ClInclude Include="Amazon\SearchSuggestion\Suggestion.h" />
     <ClInclude Include="Amazon\Spiral\Spiral.h" />

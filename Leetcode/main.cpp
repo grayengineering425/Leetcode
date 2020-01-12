@@ -6,6 +6,7 @@
 #include "Amazon/RepairEdges/RepairEdges.h"
 #include "Amazon/Spiral/Spiral.h"
 #include "Amazon/LongestPalindrome/LongestPalindrome.h"
+#include "Amazon/MaxMinPath/MaxMinPath.h"
 
 #include <iostream>
 #include <string>
@@ -14,27 +15,10 @@ using namespace Amazon;
 
 int main()
 {
-	//Spiral s(10);
+	std::vector<std::vector<int>> grid = { {2,2,1,2,2,2},{1,2,2,2,1,2} };
+	MaxMinPath m(grid);
 
-	//int maxSize = 4;
+	std::cout << m.maximumMinimumPath() << std::endl;
 
-	//auto spiral = s.generateMatrix();
-
-	//for (int i=0; i<spiral	 .size(); ++i){
-	//for (int j=0; j<spiral[i].size(); ++j)
-	//{
-	//	std::string val = std::to_string(spiral[i][j]);
-
-	//	std::cout << val;
-
-	//	for (int k=val.size(); k<maxSize; ++k) std::cout << " ";
-	//} std::cout << "\n"; }
-
-	std::string s = "babad";
-
-	LongestPalindrome l(s);
-
-	std::cout << l.longestPalindrome() << "\n";
-	
 	return 0;
 }

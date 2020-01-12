@@ -44,6 +44,9 @@
     <Filter Include="Amazon\LongestPalindrome">
       <UniqueIdentifier>{dcac2da9-aca6-43e5-9cd8-585e2c201336}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\MaxMinPath">
+      <UniqueIdentifier>{89d06095-e590-4ba0-a23a-53414e9f5e79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -82,6 +85,9 @@
     <ClCompile Include="Amazon\LongestPalindrome\LongestPalindrome.cpp">
       <Filter>Amazon\LongestPalindrome</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp">
+      <Filter>Amazon\MaxMinPath</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -116,6 +122,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\LongestPalindrome\LongestPalindrome.h">
       <Filter>Amazon\LongestPalindrome</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h">
+      <Filter>Amazon\MaxMinPath</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
