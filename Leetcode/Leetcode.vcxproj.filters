@@ -65,6 +65,9 @@
     <Filter Include="Amazon\CriticalConnections">
       <UniqueIdentifier>{edd393b0-3c20-47c4-b709-ac0f04851e62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\MergeFiles">
+      <UniqueIdentifier>{4414b267-8acc-450a-889e-32ea78f3b4fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -124,6 +127,9 @@
     <ClCompile Include="Amazon\CriticalConnections\CriticalConnections.cpp">
       <Filter>Amazon\CriticalConnections</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\MergeFiles\MergeFiles.cpp">
+      <Filter>Amazon\MergeFiles</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -179,6 +185,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\CriticalConnections\CriticalConnections.h">
       <Filter>Amazon\CriticalConnections</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\MergeFiles\MergeFiles.h">
+      <Filter>Amazon\MergeFiles</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

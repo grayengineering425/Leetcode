@@ -125,6 +125,7 @@
     <ClCompile Include="Amazon\LongestPalindrome\LongestPalindrome.cpp" />
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
     <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp" />
+    <ClCompile Include="Amazon\MergeFiles\MergeFiles.cpp" />
     <ClCompile Include="Amazon\MergeLists\MergeLists.cpp" />
     <ClCompile Include="Amazon\RepairEdges\RepairEdges.cpp" />
     <ClCompile Include="Amazon\Search2D\Search2D.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="Amazon\LongestPalindrome\LongestPalindrome.h" />
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
     <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h" />
+    <ClInclude Include="Amazon\MergeFiles\MergeFiles.h" />
     <ClInclude Include="Amazon\MergeLists\MergeLists.h" />
     <ClInclude Include="Amazon\RepairEdges\RepairEdges.h" />
     <ClInclude Include="Amazon\Search2D\Search2D.h" />
