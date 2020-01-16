@@ -29,10 +29,10 @@ int Zombies::hoursToInfect()
 		,	{  0, -1, 0 }
 	};
 
-	for (int i=0; i<zombieGrid	 .size(); ++i)
-	for (int j=0; j<zombieGrid[i].size(); ++j)
+	for (size_t i=0; i<zombieGrid	 .size(); ++i)
+	for (size_t j=0; j<zombieGrid[i] .size(); ++j)
 	{
-		if (zombieGrid[i][j] == 1){ zombies.push({ i, j, 0 }); totalZombies++; }
+		if (zombieGrid[i][j] == 1){ zombies.push({ (int)i, (int)j, 0 }); totalZombies++; }
 	}
 
 	while (!zombies.empty() && totalZombies < totalPeople)
@@ -49,7 +49,7 @@ int Zombies::hoursToInfect()
 			auto zombie		= cur + move;
 			zombie.depth	= cur.depth + 1;
 
-			if (zombie.i >= 0 && zombie.i < zombieGrid.size() && zombie.j >= 0 && zombie.j < zombieGrid[zombie.i].size() && !visited[zombie.i][zombie.j] && zombieGrid[zombie.i][zombie.j] == 0)
+			if (zombie.i >= 0 && zombie.i < (int)zombieGrid.size() && zombie.j >= 0 && zombie.j < (int)zombieGrid[zombie.i].size() && !visited[zombie.i][zombie.j] && zombieGrid[zombie.i][zombie.j] == 0)
 			{
 				visited[zombie.i][zombie.j] = true;
 

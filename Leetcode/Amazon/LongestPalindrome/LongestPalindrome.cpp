@@ -18,11 +18,11 @@ std::string LongestPalindrome::longestPalindrome()
 	std::string maxPalindrome	= "";
 
 
-	for (int i=0; i<dp.size(); ++i) dp[i][i] = 1;
+	for (size_t i=0; i<dp.size(); ++i) dp[i][i] = 1;
 
-	for (int dist=1; dist<s.size(); ++dist)
+	for (size_t dist=1; dist<s.size(); ++dist)
 	{
-		int l = 0;
+		size_t l = 0;
 		
 		while (l + dist < s.size())
 		{

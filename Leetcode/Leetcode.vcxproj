@@ -120,6 +120,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Amazon\Cities\Cities.cpp" />
+    <ClCompile Include="Amazon\KClosestOrigin\KClosestOrigin.cpp" />
     <ClCompile Include="Amazon\LongestPalindrome\LongestPalindrome.cpp" />
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
     <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp" />
@@ -127,6 +128,7 @@
     <ClCompile Include="Amazon\Search2D\Search2D.cpp" />
     <ClCompile Include="Amazon\SearchSuggestion\Suggestion.cpp" />
     <ClCompile Include="Amazon\Spiral\Spiral.cpp" />
+    <ClCompile Include="Amazon\TopBuzzwords\TopBuzzwords.cpp" />
     <ClCompile Include="Amazon\TwoSum\TwoSum.cpp" />
     <ClCompile Include="Amazon\Zombies\Zombies.cpp" />
     <ClCompile Include="DataStructures\Graph\Graph.cpp" />
@@ -136,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Cities\Cities.h" />
+    <ClInclude Include="Amazon\KClosestOrigin\KClosestOrigin.h" />
     <ClInclude Include="Amazon\LongestPalindrome\LongestPalindrome.h" />
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
     <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h" />
@@ -143,6 +146,7 @@
     <ClInclude Include="Amazon\Search2D\Search2D.h" />
     <ClInclude Include="Amazon\SearchSuggestion\Suggestion.h" />
     <ClInclude Include="Amazon\Spiral\Spiral.h" />
+    <ClInclude Include="Amazon\TopBuzzwords\TopBuzzwords.h" />
     <ClInclude Include="Amazon\TwoSum\TwoSum.h" />
     <ClInclude Include="Amazon\Zombies\Zombies.h" />
     <ClInclude Include="DataStructures\Graph\Graph.h" />

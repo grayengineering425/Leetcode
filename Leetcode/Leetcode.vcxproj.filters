@@ -50,6 +50,12 @@
     <Filter Include="Amazon\Search2D">
       <UniqueIdentifier>{914a6f42-391c-4b0c-b5f9-10ca6a430f7b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\TopBuzzwords">
+      <UniqueIdentifier>{0ef1de1e-32f5-4e70-bc36-dc5160dba4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\KClosestOrigin">
+      <UniqueIdentifier>{8f8efbb0-108b-4452-9e23-9e315f2535dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -94,6 +100,12 @@
     <ClCompile Include="Amazon\Search2D\Search2D.cpp">
       <Filter>Amazon\Search2D</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\TopBuzzwords\TopBuzzwords.cpp">
+      <Filter>Amazon\TopBuzzwords</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\KClosestOrigin\KClosestOrigin.cpp">
+      <Filter>Amazon\KClosestOrigin</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -134,6 +146,12 @@
     </ClInclude>
     <ClInclude Include="Amazon\Search2D\Search2D.h">
       <Filter>Amazon\Search2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\TopBuzzwords\TopBuzzwords.h">
+      <Filter>Amazon\TopBuzzwords</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\KClosestOrigin\KClosestOrigin.h">
+      <Filter>Amazon\KClosestOrigin</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
