@@ -33,3 +33,7 @@
 
 #custom
 LeetCode\Debug\*
+*.ipch
+*.pdb
+*.log
+*.tlog

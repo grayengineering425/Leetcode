@@ -68,6 +68,9 @@
     <Filter Include="Amazon\MergeFiles">
       <UniqueIdentifier>{4414b267-8acc-450a-889e-32ea78f3b4fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\TreasureIsland">
+      <UniqueIdentifier>{26340da6-d535-4ea9-b2b5-429ea7da556f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -130,6 +133,9 @@
     <ClCompile Include="Amazon\MergeFiles\MergeFiles.cpp">
       <Filter>Amazon\MergeFiles</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\WallsAndGates\TreasureIsland.cpp">
+      <Filter>Amazon\TreasureIsland</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -188,6 +194,12 @@
     </ClInclude>
     <ClInclude Include="Amazon\MergeFiles\MergeFiles.h">
       <Filter>Amazon\MergeFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\WallsAndGates\TreasureIsland.h">
+      <Filter>Amazon\TreasureIsland</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\Amazon.h">
+      <Filter>Amazon</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

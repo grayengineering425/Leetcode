@@ -133,6 +133,7 @@
     <ClCompile Include="Amazon\Spiral\Spiral.cpp" />
     <ClCompile Include="Amazon\TopBuzzwords\TopBuzzwords.cpp" />
     <ClCompile Include="Amazon\TwoSum\TwoSum.cpp" />
+    <ClCompile Include="Amazon\WallsAndGates\TreasureIsland.cpp" />
     <ClCompile Include="Amazon\Zombies\Zombies.cpp" />
     <ClCompile Include="DataStructures\Graph\Graph.cpp" />
     <ClCompile Include="DataStructures\LinkedList\LinkedList.cpp" />
@@ -141,6 +142,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Amazon\Amazon.h" />
     <ClInclude Include="Amazon\Cities\Cities.h" />
     <ClInclude Include="Amazon\CriticalConnections\CriticalConnections.h" />
     <ClInclude Include="Amazon\KClosestOrigin\KClosestOrigin.h" />
@@ -155,6 +157,7 @@
     <ClInclude Include="Amazon\Spiral\Spiral.h" />
     <ClInclude Include="Amazon\TopBuzzwords\TopBuzzwords.h" />
     <ClInclude Include="Amazon\TwoSum\TwoSum.h" />
+    <ClInclude Include="Amazon\WallsAndGates\TreasureIsland.h" />
     <ClInclude Include="Amazon\Zombies\Zombies.h" />
     <ClInclude Include="DataStructures\Graph\Graph.h" />
     <ClInclude Include="DataStructures\LinkedList\LinkedList.h" />
