@@ -71,6 +71,12 @@
     <Filter Include="Amazon\TreasureIsland">
       <UniqueIdentifier>{26340da6-d535-4ea9-b2b5-429ea7da556f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\NumberClusters">
+      <UniqueIdentifier>{010ee9c7-5b43-4629-84ab-ee26422447b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\PairWithSum">
+      <UniqueIdentifier>{b1d5e25d-b107-4c67-891b-29761004f1da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -136,6 +142,12 @@
     <ClCompile Include="Amazon\WallsAndGates\TreasureIsland.cpp">
       <Filter>Amazon\TreasureIsland</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\NumberClusters\NumberClusters.cpp">
+      <Filter>Amazon\NumberClusters</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\PairWithSum\PairWithSum.cpp">
+      <Filter>Amazon\PairWithSum</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -200,6 +212,12 @@
     </ClInclude>
     <ClInclude Include="Amazon\Amazon.h">
       <Filter>Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\NumberClusters\NumberClusters.h">
+      <Filter>Amazon\NumberClusters</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\PairWithSum\PairWithSum.h">
+      <Filter>Amazon\PairWithSum</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

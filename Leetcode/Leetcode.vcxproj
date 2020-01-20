@@ -127,6 +127,8 @@
     <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp" />
     <ClCompile Include="Amazon\MergeFiles\MergeFiles.cpp" />
     <ClCompile Include="Amazon\MergeLists\MergeLists.cpp" />
+    <ClCompile Include="Amazon\NumberClusters\NumberClusters.cpp" />
+    <ClCompile Include="Amazon\PairWithSum\PairWithSum.cpp" />
     <ClCompile Include="Amazon\RepairEdges\RepairEdges.cpp" />
     <ClCompile Include="Amazon\Search2D\Search2D.cpp" />
     <ClCompile Include="Amazon\SearchSuggestion\Suggestion.cpp" />
@@ -151,6 +153,8 @@
     <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h" />
     <ClInclude Include="Amazon\MergeFiles\MergeFiles.h" />
     <ClInclude Include="Amazon\MergeLists\MergeLists.h" />
+    <ClInclude Include="Amazon\NumberClusters\NumberClusters.h" />
+    <ClInclude Include="Amazon\PairWithSum\PairWithSum.h" />
     <ClInclude Include="Amazon\RepairEdges\RepairEdges.h" />
     <ClInclude Include="Amazon\Search2D\Search2D.h" />
     <ClInclude Include="Amazon\SearchSuggestion\Suggestion.h" />

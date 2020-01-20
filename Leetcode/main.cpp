@@ -7,14 +7,11 @@ using namespace Amazon;
 
 int main()
 {
-	std::vector<std::vector<char>> map = {	{'S', 'O', 'O', 'O'},
-											{'D', 'O', 'D', 'O'},
-											{'O', 'O', 'O', 'O'},
-											{'X', 'D', 'D', 'O'} };
+	std::vector<int> nums = { 20, 50, 40, 25, 30, 10 };
 
-	TreasureIsland t(map);
+	PairWithSum p(nums);
 
-	std::cout << t.minSteps2() << std::endl;
-
+	p.findPair(90);
+	
 	return 0;
 }

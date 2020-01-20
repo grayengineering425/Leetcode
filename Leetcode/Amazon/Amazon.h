@@ -11,3 +11,5 @@
 #include "Amazon/MaxMinPath/MaxMinPath.h"
 #include "Amazon/TopBuzzwords/TopBuzzwords.h"
 #include "Amazon/WallsAndGates/TreasureIsland.h"
+#include "Amazon/NumberClusters/NumberClusters.h"
+#include "Amazon/PairWithSum/PairWithSum.h"
