@@ -77,6 +77,12 @@
     <Filter Include="Amazon\PairWithSum">
       <UniqueIdentifier>{b1d5e25d-b107-4c67-891b-29761004f1da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\MergeIntervals">
+      <UniqueIdentifier>{740c3f94-b9b3-418b-9d62-3c009d31327a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\GenerateParentheses">
+      <UniqueIdentifier>{66bf6017-13f7-4cb8-a653-3352fe473464}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -148,6 +154,12 @@
     <ClCompile Include="Amazon\PairWithSum\PairWithSum.cpp">
       <Filter>Amazon\PairWithSum</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\MergeIntervals\MergeIntervals.cpp">
+      <Filter>Amazon\MergeIntervals</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\GenerateParentheses\GenerateParentheses.cpp">
+      <Filter>Amazon\GenerateParentheses</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -218,6 +230,12 @@
     </ClInclude>
     <ClInclude Include="Amazon\PairWithSum\PairWithSum.h">
       <Filter>Amazon\PairWithSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\MergeIntervals\MergeIntervals.h">
+      <Filter>Amazon\MergeIntervals</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\GenerateParentheses\GenerateParentheses.h">
+      <Filter>Amazon\GenerateParentheses</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

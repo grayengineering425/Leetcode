@@ -121,11 +121,13 @@
   <ItemGroup>
     <ClCompile Include="Amazon\Cities\Cities.cpp" />
     <ClCompile Include="Amazon\CriticalConnections\CriticalConnections.cpp" />
+    <ClCompile Include="Amazon\GenerateParentheses\GenerateParentheses.cpp" />
     <ClCompile Include="Amazon\KClosestOrigin\KClosestOrigin.cpp" />
     <ClCompile Include="Amazon\LongestPalindrome\LongestPalindrome.cpp" />
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
     <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp" />
     <ClCompile Include="Amazon\MergeFiles\MergeFiles.cpp" />
+    <ClCompile Include="Amazon\MergeIntervals\MergeIntervals.cpp" />
     <ClCompile Include="Amazon\MergeLists\MergeLists.cpp" />
     <ClCompile Include="Amazon\NumberClusters\NumberClusters.cpp" />
     <ClCompile Include="Amazon\PairWithSum\PairWithSum.cpp" />
@@ -147,11 +149,13 @@
     <ClInclude Include="Amazon\Amazon.h" />
     <ClInclude Include="Amazon\Cities\Cities.h" />
     <ClInclude Include="Amazon\CriticalConnections\CriticalConnections.h" />
+    <ClInclude Include="Amazon\GenerateParentheses\GenerateParentheses.h" />
     <ClInclude Include="Amazon\KClosestOrigin\KClosestOrigin.h" />
     <ClInclude Include="Amazon\LongestPalindrome\LongestPalindrome.h" />
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
     <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h" />
     <ClInclude Include="Amazon\MergeFiles\MergeFiles.h" />
+    <ClInclude Include="Amazon\MergeIntervals\MergeIntervals.h" />
     <ClInclude Include="Amazon\MergeLists\MergeLists.h" />
     <ClInclude Include="Amazon\NumberClusters\NumberClusters.h" />
     <ClInclude Include="Amazon\PairWithSum\PairWithSum.h" />
