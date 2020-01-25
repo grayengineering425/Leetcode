@@ -13,3 +13,4 @@
 #include "Amazon/WallsAndGates/TreasureIsland.h"
 #include "Amazon/NumberClusters/NumberClusters.h"
 #include "Amazon/PairWithSum/PairWithSum.h"
+#include "Amazon/RearrangeKDistance/RearrangeKDistance.h"

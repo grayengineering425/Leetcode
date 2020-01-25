@@ -7,11 +7,11 @@ using namespace Amazon;
 
 int main()
 {
-	std::vector<int> nums = { 20, 50, 40, 25, 30, 10 };
+	std::string s = "aaadbbcc";
 
-	PairWithSum p(nums);
+	RearrangeKDistance r(s);
 
-	p.findPair(90);
+	std::cout << r.rearrange(2) << std::endl;
 	
 	return 0;
 }

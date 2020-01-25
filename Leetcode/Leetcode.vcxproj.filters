@@ -83,6 +83,12 @@
     <Filter Include="Amazon\GenerateParentheses">
       <UniqueIdentifier>{66bf6017-13f7-4cb8-a653-3352fe473464}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\RearrangeKDistance">
+      <UniqueIdentifier>{f16f9ca9-40fb-4971-b924-85d64572765c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\ReorderData">
+      <UniqueIdentifier>{70a52f75-9604-4fbb-8bee-15439d5117f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -157,8 +163,14 @@
     <ClCompile Include="Amazon\MergeIntervals\MergeIntervals.cpp">
       <Filter>Amazon\MergeIntervals</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\RearrangeKDistance\RearrangeKDistance.cpp">
+      <Filter>Amazon\RearrangeKDistance</Filter>
+    </ClCompile>
     <ClCompile Include="Amazon\GenerateParentheses\GenerateParentheses.cpp">
       <Filter>Amazon\GenerateParentheses</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\ReorderData\ReorderData.cpp">
+      <Filter>Amazon\ReorderData</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -234,8 +246,14 @@
     <ClInclude Include="Amazon\MergeIntervals\MergeIntervals.h">
       <Filter>Amazon\MergeIntervals</Filter>
     </ClInclude>
+    <ClInclude Include="Amazon\RearrangeKDistance\RearrangeKDistance.h">
+      <Filter>Amazon\RearrangeKDistance</Filter>
+    </ClInclude>
     <ClInclude Include="Amazon\GenerateParentheses\GenerateParentheses.h">
       <Filter>Amazon\GenerateParentheses</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\ReorderData\ReorderData.h">
+      <Filter>Amazon\ReorderData</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
