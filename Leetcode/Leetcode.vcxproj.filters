@@ -92,6 +92,9 @@
     <Filter Include="Amazon\KDistinctSubstrings">
       <UniqueIdentifier>{955ed6fa-9a75-4704-a545-2fca08b216ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\MostCommonWord">
+      <UniqueIdentifier>{98bb5867-e685-4b96-853e-6890805fe3ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -178,6 +181,9 @@
     <ClCompile Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.cpp">
       <Filter>Amazon\KDistinctSubstrings</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\MostCommonWord\MostCommonWord.cpp">
+      <Filter>Amazon\MostCommonWord</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -263,6 +269,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.h">
       <Filter>Amazon\KDistinctSubstrings</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\MostCommonWord\MostCommonWord.h">
+      <Filter>Amazon\MostCommonWord</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

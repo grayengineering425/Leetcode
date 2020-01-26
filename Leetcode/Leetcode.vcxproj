@@ -130,6 +130,7 @@
     <ClCompile Include="Amazon\MergeFiles\MergeFiles.cpp" />
     <ClCompile Include="Amazon\MergeIntervals\MergeIntervals.cpp" />
     <ClCompile Include="Amazon\MergeLists\MergeLists.cpp" />
+    <ClCompile Include="Amazon\MostCommonWord\MostCommonWord.cpp" />
     <ClCompile Include="Amazon\NumberClusters\NumberClusters.cpp" />
     <ClCompile Include="Amazon\PairWithSum\PairWithSum.cpp" />
     <ClCompile Include="Amazon\RearrangeKDistance\RearrangeKDistance.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="Amazon\MergeFiles\MergeFiles.h" />
     <ClInclude Include="Amazon\MergeIntervals\MergeIntervals.h" />
     <ClInclude Include="Amazon\MergeLists\MergeLists.h" />
+    <ClInclude Include="Amazon\MostCommonWord\MostCommonWord.h" />
     <ClInclude Include="Amazon\NumberClusters\NumberClusters.h" />
     <ClInclude Include="Amazon\PairWithSum\PairWithSum.h" />
     <ClInclude Include="Amazon\RearrangeKDistance\RearrangeKDistance.h" />
