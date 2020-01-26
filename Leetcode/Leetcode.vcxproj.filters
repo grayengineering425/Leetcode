@@ -89,6 +89,9 @@
     <Filter Include="Amazon\ReorderData">
       <UniqueIdentifier>{70a52f75-9604-4fbb-8bee-15439d5117f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\KDistinctSubstrings">
+      <UniqueIdentifier>{955ed6fa-9a75-4704-a545-2fca08b216ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -172,6 +175,9 @@
     <ClCompile Include="Amazon\ReorderData\ReorderData.cpp">
       <Filter>Amazon\ReorderData</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.cpp">
+      <Filter>Amazon\KDistinctSubstrings</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -254,6 +260,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\ReorderData\ReorderData.h">
       <Filter>Amazon\ReorderData</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.h">
+      <Filter>Amazon\KDistinctSubstrings</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

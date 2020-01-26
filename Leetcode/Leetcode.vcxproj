@@ -123,6 +123,7 @@
     <ClCompile Include="Amazon\CriticalConnections\CriticalConnections.cpp" />
     <ClCompile Include="Amazon\GenerateParentheses\GenerateParentheses.cpp" />
     <ClCompile Include="Amazon\KClosestOrigin\KClosestOrigin.cpp" />
+    <ClCompile Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.cpp" />
     <ClCompile Include="Amazon\LongestPalindrome\LongestPalindrome.cpp" />
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
     <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="Amazon\CriticalConnections\CriticalConnections.h" />
     <ClInclude Include="Amazon\GenerateParentheses\GenerateParentheses.h" />
     <ClInclude Include="Amazon\KClosestOrigin\KClosestOrigin.h" />
+    <ClInclude Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.h" />
     <ClInclude Include="Amazon\LongestPalindrome\LongestPalindrome.h" />
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
     <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h" />

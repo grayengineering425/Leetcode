@@ -14,3 +14,4 @@
 #include "Amazon/NumberClusters/NumberClusters.h"
 #include "Amazon/PairWithSum/PairWithSum.h"
 #include "Amazon/RearrangeKDistance/RearrangeKDistance.h"
+#include "Amazon/KDistinctSubstrings/KDistinctSubstrings.h"
