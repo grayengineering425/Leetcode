@@ -95,6 +95,9 @@
     <Filter Include="Amazon\MostCommonWord">
       <UniqueIdentifier>{98bb5867-e685-4b96-853e-6890805fe3ac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\PartitionLabels">
+      <UniqueIdentifier>{1c29fb8d-4555-477a-b612-9f91d00a4a53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -184,6 +187,9 @@
     <ClCompile Include="Amazon\MostCommonWord\MostCommonWord.cpp">
       <Filter>Amazon\MostCommonWord</Filter>
     </ClCompile>
+    <ClCompile Include="Amazon\PartitionLabels\PartitionLabels.cpp">
+      <Filter>Amazon\PartitionLabels</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -272,6 +278,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\MostCommonWord\MostCommonWord.h">
       <Filter>Amazon\MostCommonWord</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\PartitionLabels\PartitionLabels.h">
+      <Filter>Amazon\PartitionLabels</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

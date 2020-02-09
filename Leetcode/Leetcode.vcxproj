@@ -133,6 +133,7 @@
     <ClCompile Include="Amazon\MostCommonWord\MostCommonWord.cpp" />
     <ClCompile Include="Amazon\NumberClusters\NumberClusters.cpp" />
     <ClCompile Include="Amazon\PairWithSum\PairWithSum.cpp" />
+    <ClCompile Include="Amazon\PartitionLabels\PartitionLabels.cpp" />
     <ClCompile Include="Amazon\RearrangeKDistance\RearrangeKDistance.cpp" />
     <ClCompile Include="Amazon\ReorderData\ReorderData.cpp" />
     <ClCompile Include="Amazon\RepairEdges\RepairEdges.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Amazon\MostCommonWord\MostCommonWord.h" />
     <ClInclude Include="Amazon\NumberClusters\NumberClusters.h" />
     <ClInclude Include="Amazon\PairWithSum\PairWithSum.h" />
+    <ClInclude Include="Amazon\PartitionLabels\PartitionLabels.h" />
     <ClInclude Include="Amazon\RearrangeKDistance\RearrangeKDistance.h" />
     <ClInclude Include="Amazon\ReorderData\ReorderData.h" />
     <ClInclude Include="Amazon\RepairEdges\RepairEdges.h" />
