@@ -148,7 +148,15 @@
     <ClCompile Include="DataStructures\LinkedList\LinkedList.cpp" />
     <ClCompile Include="DataStructures\Tree\Tree.cpp" />
     <ClCompile Include="DataStructures\Trie\Trie.cpp" />
+    <ClCompile Include="General\CheapestFlights\CheapestFlights.cpp" />
+    <ClCompile Include="General\CourseScheduleII\CourseScheduleII.cpp" />
+    <ClCompile Include="General\CourseSchedule\CourseSchedule.cpp" />
+    <ClCompile Include="General\TimeBasedStore\TimeBasedStore.cpp" />
+    <ClCompile Include="Google\KClosest\KClosestPoints.cpp" />
+    <ClCompile Include="Google\OddEven\OddEven.cpp" />
+    <ClCompile Include="Google\TypeTime\TypeTime.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Microsoft\VisibileNodes\VisibileNodes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Amazon.h" />
@@ -181,6 +189,17 @@
     <ClInclude Include="DataStructures\LinkedList\LinkedList.h" />
     <ClInclude Include="DataStructures\Tree\Tree.h" />
     <ClInclude Include="DataStructures\Trie\Trie.h" />
+    <ClInclude Include="General\CheapestFlights\CheapestFlights.h" />
+    <ClInclude Include="General\CourseScheduleII\CourseScheduleII.h" />
+    <ClInclude Include="General\CourseSchedule\CourseSchedule.h" />
+    <ClInclude Include="General\General.h" />
+    <ClInclude Include="General\TimeBasedStore\TimeBasedStore.h" />
+    <ClInclude Include="Google\Google.h" />
+    <ClInclude Include="Google\KClosest\KClosestPoints.h" />
+    <ClInclude Include="Google\OddEven\OddEven.h" />
+    <ClInclude Include="Google\TypeTime\TypeTime.h" />
+    <ClInclude Include="Microsoft\Microsoft.h" />
+    <ClInclude Include="Microsoft\VisibileNodes\VisibileNodes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,7 +21,7 @@ std::string MostCommonWord::getMostCommon()
 	
 	for (const auto& s: banned) mBanned[s] = true;
 	
-	int i=0;
+	size_t i=0;
 	
 	std::string curString = "";
 	

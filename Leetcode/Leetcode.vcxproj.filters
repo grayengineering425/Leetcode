@@ -98,6 +98,39 @@
     <Filter Include="Amazon\PartitionLabels">
       <UniqueIdentifier>{1c29fb8d-4555-477a-b612-9f91d00a4a53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{a23a3b81-bb2a-47e1-86fd-f14290ea3925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\TimeBasedStore">
+      <UniqueIdentifier>{196cc6cd-6b76-45fd-8fae-a3221d387678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\CourseSchedule">
+      <UniqueIdentifier>{eb176391-5656-4d61-81e0-b01bce093c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\CourseScheduleII">
+      <UniqueIdentifier>{1d08c762-c799-46a5-81fd-6fbd7582ff78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\CheapestFlights">
+      <UniqueIdentifier>{163067ca-37ce-466a-b385-a16fba9b08b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Microsoft">
+      <UniqueIdentifier>{3fd5ce3a-a7bb-41ec-bb1c-f1f547fe0747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Microsoft\VisibleNodes">
+      <UniqueIdentifier>{e6ba16d9-2342-414e-b215-121c1350a56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google">
+      <UniqueIdentifier>{1d10f061-fcc3-4489-98a3-c9d63e419ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google\OddEven">
+      <UniqueIdentifier>{fc08d0a6-47e6-439f-9201-08452f16dd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google\TypeTime">
+      <UniqueIdentifier>{56859e57-e104-4daa-bb5d-527b1a926166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google\KClosestPoints">
+      <UniqueIdentifier>{f034569b-0526-4395-9240-f7ba0df80ba8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -190,6 +223,30 @@
     <ClCompile Include="Amazon\PartitionLabels\PartitionLabels.cpp">
       <Filter>Amazon\PartitionLabels</Filter>
     </ClCompile>
+    <ClCompile Include="General\TimeBasedStore\TimeBasedStore.cpp">
+      <Filter>General\TimeBasedStore</Filter>
+    </ClCompile>
+    <ClCompile Include="General\CourseSchedule\CourseSchedule.cpp">
+      <Filter>General\CourseSchedule</Filter>
+    </ClCompile>
+    <ClCompile Include="General\CourseScheduleII\CourseScheduleII.cpp">
+      <Filter>General\CourseScheduleII</Filter>
+    </ClCompile>
+    <ClCompile Include="General\CheapestFlights\CheapestFlights.cpp">
+      <Filter>General\CheapestFlights</Filter>
+    </ClCompile>
+    <ClCompile Include="Microsoft\VisibileNodes\VisibileNodes.cpp">
+      <Filter>Microsoft\VisibleNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\OddEven\OddEven.cpp">
+      <Filter>Google\OddEven</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\TypeTime\TypeTime.cpp">
+      <Filter>Google\TypeTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\KClosest\KClosestPoints.cpp">
+      <Filter>Google\KClosestPoints</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Zombies\Zombies.h">
@@ -281,6 +338,39 @@
     </ClInclude>
     <ClInclude Include="Amazon\PartitionLabels\PartitionLabels.h">
       <Filter>Amazon\PartitionLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="General\General.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="General\TimeBasedStore\TimeBasedStore.h">
+      <Filter>General\TimeBasedStore</Filter>
+    </ClInclude>
+    <ClInclude Include="General\CourseSchedule\CourseSchedule.h">
+      <Filter>General\CourseSchedule</Filter>
+    </ClInclude>
+    <ClInclude Include="General\CourseScheduleII\CourseScheduleII.h">
+      <Filter>General\CourseScheduleII</Filter>
+    </ClInclude>
+    <ClInclude Include="General\CheapestFlights\CheapestFlights.h">
+      <Filter>General\CheapestFlights</Filter>
+    </ClInclude>
+    <ClInclude Include="Microsoft\VisibileNodes\VisibileNodes.h">
+      <Filter>Microsoft\VisibleNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Microsoft\Microsoft.h">
+      <Filter>Microsoft</Filter>
+    </ClInclude>
+    <ClInclude Include="Google\OddEven\OddEven.h">
+      <Filter>Google\OddEven</Filter>
+    </ClInclude>
+    <ClInclude Include="Google\Google.h">
+      <Filter>Google</Filter>
+    </ClInclude>
+    <ClInclude Include="Google\TypeTime\TypeTime.h">
+      <Filter>Google\TypeTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Google\KClosest\KClosestPoints.h">
+      <Filter>Google\KClosestPoints</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
