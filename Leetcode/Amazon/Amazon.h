@@ -16,3 +16,4 @@
 #include "Amazon/RearrangeKDistance/RearrangeKDistance.h"
 #include "Amazon/KDistinctSubstrings/KDistinctSubstrings.h"
 #include "Amazon/MostCommonWord/MostCommonWord.h"
+#include "Amazon/LoadBalancer/LoadBalancer.h"

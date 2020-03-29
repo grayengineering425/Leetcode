@@ -131,6 +131,15 @@
     <Filter Include="Google\KClosestPoints">
       <UniqueIdentifier>{f034569b-0526-4395-9240-f7ba0df80ba8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Google\MaxBinaryDifference">
+      <UniqueIdentifier>{49a35a18-171a-4d9e-b469-8e6cb66d68a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Google\MaxLevelSum">
+      <UniqueIdentifier>{d462e90e-2462-4bc2-b94d-8cea39041511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\LoadBalancer">
+      <UniqueIdentifier>{6aa52f0a-7666-407a-97ab-5c617d593a86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -244,8 +253,17 @@
     <ClCompile Include="Google\TypeTime\TypeTime.cpp">
       <Filter>Google\TypeTime</Filter>
     </ClCompile>
-    <ClCompile Include="Google\KClosest\KClosestPoints.cpp">
+    <ClCompile Include="Google\MaxBinaryDifference\MaxBinaryDifference.cpp">
+      <Filter>Google\MaxBinaryDifference</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\KClosestPoints\KClosestPoints.cpp">
       <Filter>Google\KClosestPoints</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\MaxLevelSum\MaxLevelSum.cpp">
+      <Filter>Google\MaxLevelSum</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\LoadBalancer\LoadBalancer.cpp">
+      <Filter>Amazon\LoadBalancer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -369,8 +387,17 @@
     <ClInclude Include="Google\TypeTime\TypeTime.h">
       <Filter>Google\TypeTime</Filter>
     </ClInclude>
-    <ClInclude Include="Google\KClosest\KClosestPoints.h">
+    <ClInclude Include="Google\MaxBinaryDifference\MaxBinaryDifference.h">
+      <Filter>Google\MaxBinaryDifference</Filter>
+    </ClInclude>
+    <ClInclude Include="Google\KClosestPoints\KClosestPoints.h">
       <Filter>Google\KClosestPoints</Filter>
+    </ClInclude>
+    <ClInclude Include="Google\MaxLevelSum\MaxLevelSum.h">
+      <Filter>Google\MaxLevelSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\LoadBalancer\LoadBalancer.h">
+      <Filter>Amazon\LoadBalancer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
