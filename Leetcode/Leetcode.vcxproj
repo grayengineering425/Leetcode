@@ -156,6 +156,7 @@
     <ClCompile Include="Google\KClosestPoints\KClosestPoints.cpp" />
     <ClCompile Include="Google\LargestSubarrayLengthK\LargestSubarrayLengthK.cpp" />
     <ClCompile Include="Google\MaxBinaryDifference\MaxBinaryDifference.cpp" />
+    <ClCompile Include="Google\MaximumTime\MaximumTime.cpp" />
     <ClCompile Include="Google\MaxLevelSum\MaxLevelSum.cpp" />
     <ClCompile Include="Google\OddEven\OddEven.cpp" />
     <ClCompile Include="Google\TypeTime\TypeTime.cpp" />
@@ -203,6 +204,7 @@
     <ClInclude Include="Google\KClosestPoints\KClosestPoints.h" />
     <ClInclude Include="Google\LargestSubarrayLengthK\LargestSubarrayLengthK.h" />
     <ClInclude Include="Google\MaxBinaryDifference\MaxBinaryDifference.h" />
+    <ClInclude Include="Google\MaximumTime\MaximumTime.h" />
     <ClInclude Include="Google\MaxLevelSum\MaxLevelSum.h" />
     <ClInclude Include="Google\OddEven\OddEven.h" />
     <ClInclude Include="Google\TypeTime\TypeTime.h" />

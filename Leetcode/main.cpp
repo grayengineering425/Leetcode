@@ -15,12 +15,9 @@ using namespace DataStructures;
 
 int main()
 {
-	std::vector<int> nums	= { 1, 4, 3, 2, 5 };
-	int k					= 4;
+	std::string time = "??:??";
 
-	LargestSubarrayLengthK l;
+	MaximumTime m;
 
-	for (const auto& n: l.getLargestByStart(nums, k)) std::cout << n << " ";
-
-	std::cout << std::endl;
+	std::cout << m.getMaximum(time) << std::endl;
 }

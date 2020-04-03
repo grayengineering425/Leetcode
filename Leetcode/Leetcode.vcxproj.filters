@@ -143,6 +143,9 @@
     <Filter Include="Google\LargestSubarrayLengthK">
       <UniqueIdentifier>{0496407c-5962-4d19-9bc2-145f1b564b23}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Google\MaximumTime">
+      <UniqueIdentifier>{fe7a54ca-77fe-4ad4-ab86-ef72a82f0c69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -270,6 +273,9 @@
     </ClCompile>
     <ClCompile Include="Google\LargestSubarrayLengthK\LargestSubarrayLengthK.cpp">
       <Filter>Google\LargestSubarrayLengthK</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\MaximumTime\MaximumTime.cpp">
+      <Filter>Google\MaximumTime</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -407,6 +413,9 @@
     </ClInclude>
     <ClInclude Include="Google\LargestSubarrayLengthK\LargestSubarrayLengthK.h">
       <Filter>Google\LargestSubarrayLengthK</Filter>
+    </ClInclude>
+    <ClInclude Include="Google\MaximumTime\MaximumTime.h">
+      <Filter>Google\MaximumTime</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
