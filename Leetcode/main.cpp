@@ -15,10 +15,12 @@ using namespace DataStructures;
 
 int main()
 {
-	std::vector<int> loads ={ 1, 1, 1, 1, 1, 1 };
+	std::vector<int> nums	= { 1, 4, 3, 2, 5 };
+	int k					= 4;
 
-	LoadBalancer l;
+	LargestSubarrayLengthK l;
 
-	if (l.balanceLoad(loads))	std::cout << "True\n";
-	else						std::cout << "False\n";
+	for (const auto& n: l.getLargestByStart(nums, k)) std::cout << n << " ";
+
+	std::cout << std::endl;
 }

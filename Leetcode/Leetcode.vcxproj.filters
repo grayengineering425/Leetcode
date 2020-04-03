@@ -140,6 +140,9 @@
     <Filter Include="Amazon\LoadBalancer">
       <UniqueIdentifier>{6aa52f0a-7666-407a-97ab-5c617d593a86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Google\LargestSubarrayLengthK">
+      <UniqueIdentifier>{0496407c-5962-4d19-9bc2-145f1b564b23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -264,6 +267,9 @@
     </ClCompile>
     <ClCompile Include="Amazon\LoadBalancer\LoadBalancer.cpp">
       <Filter>Amazon\LoadBalancer</Filter>
+    </ClCompile>
+    <ClCompile Include="Google\LargestSubarrayLengthK\LargestSubarrayLengthK.cpp">
+      <Filter>Google\LargestSubarrayLengthK</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -398,6 +404,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\LoadBalancer\LoadBalancer.h">
       <Filter>Amazon\LoadBalancer</Filter>
+    </ClInclude>
+    <ClInclude Include="Google\LargestSubarrayLengthK\LargestSubarrayLengthK.h">
+      <Filter>Google\LargestSubarrayLengthK</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
