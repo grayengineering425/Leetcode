@@ -146,6 +146,45 @@
     <Filter Include="Google\MaximumTime">
       <UniqueIdentifier>{fe7a54ca-77fe-4ad4-ab86-ef72a82f0c69}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Microsoft\WidestPath">
+      <UniqueIdentifier>{b00eee0a-ff98-42af-8c62-6cfa8a3cf98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Microsoft\MeetingRoomsII">
+      <UniqueIdentifier>{beb61283-8be6-4fee-ad24-8643e1533f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Microsoft\MaxUniqueChars">
+      <UniqueIdentifier>{178fc9cf-0d19-4469-8848-68d3fa5c2acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Microsoft\ConsecutiveString">
+      <UniqueIdentifier>{ddf53e9c-107c-42db-be6e-aee7f2ea9584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Microsoft\EqualPiles">
+      <UniqueIdentifier>{5fed4807-3a1a-4d44-9169-32fbdcffbc75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\SpiralMatrix">
+      <UniqueIdentifier>{0195f5c8-032b-474b-a9ac-438c2363e5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\CopyListRandomNode">
+      <UniqueIdentifier>{335ba64b-5fe5-408f-a334-6c8cf9441fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\OptimalUtilization">
+      <UniqueIdentifier>{f066318b-c503-400d-8ed4-9b5c5481a7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\TwoSumUnique">
+      <UniqueIdentifier>{9a623184-1ace-4eef-9bcd-4e0572ec5555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\DistinctSubstringsSizeK">
+      <UniqueIdentifier>{6b44d80f-6e33-4742-9420-a8abc063903c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\Battleships">
+      <UniqueIdentifier>{276b612f-fe97-4a74-810f-01185a83a0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\DiceRollsWithSum">
+      <UniqueIdentifier>{a3f1cb96-d035-408b-8958-9b02f8b82bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\LongestWithoutConsecutive">
+      <UniqueIdentifier>{23574842-1711-4ec9-a44b-e3574016ec46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -276,6 +315,45 @@
     </ClCompile>
     <ClCompile Include="Google\MaximumTime\MaximumTime.cpp">
       <Filter>Google\MaximumTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Microsoft\WidestPath\WidestPath.cpp">
+      <Filter>Microsoft\WidestPath</Filter>
+    </ClCompile>
+    <ClCompile Include="Microsoft\MeetingRoomsII\MeetingRoomsII.cpp">
+      <Filter>Microsoft\MeetingRoomsII</Filter>
+    </ClCompile>
+    <ClCompile Include="Microsoft\MaxUniqueChars\MaxUniqueChars.cpp">
+      <Filter>Microsoft\MaxUniqueChars</Filter>
+    </ClCompile>
+    <ClCompile Include="Microsoft\ConsecutiveString\ConsecutiveString.cpp">
+      <Filter>Microsoft\ConsecutiveString</Filter>
+    </ClCompile>
+    <ClCompile Include="Microsoft\EqualPiles\EqualPiles.cpp">
+      <Filter>Microsoft\EqualPiles</Filter>
+    </ClCompile>
+    <ClCompile Include="General\SpiralMatrix\SpiralMatrix.cpp">
+      <Filter>General\SpiralMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\CopyListRandomNode\CopyListRandomNode.cpp">
+      <Filter>Amazon\CopyListRandomNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\OptimalUtilization\OptimalUtilization.cpp">
+      <Filter>Amazon\OptimalUtilization</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\TwoSumUnique\TwoSumUnique.cpp">
+      <Filter>Amazon\TwoSumUnique</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\DistinctSubstringsSizeK\DistinctSubstringsSizeK.cpp">
+      <Filter>Amazon\DistinctSubstringsSizeK</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\Battleships\Battleships.cpp">
+      <Filter>Amazon\Battleships</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\DiceRollsWithSum\DiceRollsWithSum.cpp">
+      <Filter>Amazon\DiceRollsWithSum</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\LongestWithoutConsecutive\LongestWithoutConsecutive.cpp">
+      <Filter>Amazon\LongestWithoutConsecutive</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -416,6 +494,45 @@
     </ClInclude>
     <ClInclude Include="Google\MaximumTime\MaximumTime.h">
       <Filter>Google\MaximumTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Microsoft\WidestPath\WidestPath.h">
+      <Filter>Microsoft\WidestPath</Filter>
+    </ClInclude>
+    <ClInclude Include="Microsoft\MeetingRoomsII\MeetingRoomsII.h">
+      <Filter>Microsoft\MeetingRoomsII</Filter>
+    </ClInclude>
+    <ClInclude Include="Microsoft\MaxUniqueChars\MaxUniqueChars.h">
+      <Filter>Microsoft\MaxUniqueChars</Filter>
+    </ClInclude>
+    <ClInclude Include="Microsoft\ConsecutiveString\ConsecutiveString.h">
+      <Filter>Microsoft\ConsecutiveString</Filter>
+    </ClInclude>
+    <ClInclude Include="Microsoft\EqualPiles\EqualPiles.h">
+      <Filter>Microsoft\EqualPiles</Filter>
+    </ClInclude>
+    <ClInclude Include="General\SpiralMatrix\SpiralMatrix.h">
+      <Filter>General\SpiralMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\CopyListRandomNode\CopyListRandomNode.h">
+      <Filter>Amazon\CopyListRandomNode</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\OptimalUtilization\OptimalUtilization.h">
+      <Filter>Amazon\OptimalUtilization</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\TwoSumUnique\TwoSumUnique.h">
+      <Filter>Amazon\TwoSumUnique</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\DistinctSubstringsSizeK\DistinctSubstringsSizeK.h">
+      <Filter>Amazon\DistinctSubstringsSizeK</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\Battleships\Battleships.h">
+      <Filter>Amazon\Battleships</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\DiceRollsWithSum\DiceRollsWithSum.h">
+      <Filter>Amazon\DiceRollsWithSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\LongestWithoutConsecutive\LongestWithoutConsecutive.h">
+      <Filter>Amazon\LongestWithoutConsecutive</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

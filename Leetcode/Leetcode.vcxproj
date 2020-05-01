@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -119,13 +119,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Amazon\Battleships\Battleships.cpp" />
     <ClCompile Include="Amazon\Cities\Cities.cpp" />
+    <ClCompile Include="Amazon\CopyListRandomNode\CopyListRandomNode.cpp" />
     <ClCompile Include="Amazon\CriticalConnections\CriticalConnections.cpp" />
+    <ClCompile Include="Amazon\DiceRollsWithSum\DiceRollsWithSum.cpp" />
+    <ClCompile Include="Amazon\DistinctSubstringsSizeK\DistinctSubstringsSizeK.cpp" />
     <ClCompile Include="Amazon\GenerateParentheses\GenerateParentheses.cpp" />
     <ClCompile Include="Amazon\KClosestOrigin\KClosestOrigin.cpp" />
     <ClCompile Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.cpp" />
     <ClCompile Include="Amazon\LoadBalancer\LoadBalancer.cpp" />
     <ClCompile Include="Amazon\LongestPalindrome\LongestPalindrome.cpp" />
+    <ClCompile Include="Amazon\LongestWithoutConsecutive\LongestWithoutConsecutive.cpp" />
     <ClCompile Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.cpp" />
     <ClCompile Include="Amazon\MaxMinPath\MaxMinPath.cpp" />
     <ClCompile Include="Amazon\MergeFiles\MergeFiles.cpp" />
@@ -133,6 +138,7 @@
     <ClCompile Include="Amazon\MergeLists\MergeLists.cpp" />
     <ClCompile Include="Amazon\MostCommonWord\MostCommonWord.cpp" />
     <ClCompile Include="Amazon\NumberClusters\NumberClusters.cpp" />
+    <ClCompile Include="Amazon\OptimalUtilization\OptimalUtilization.cpp" />
     <ClCompile Include="Amazon\PairWithSum\PairWithSum.cpp" />
     <ClCompile Include="Amazon\PartitionLabels\PartitionLabels.cpp" />
     <ClCompile Include="Amazon\RearrangeKDistance\RearrangeKDistance.cpp" />
@@ -142,6 +148,7 @@
     <ClCompile Include="Amazon\SearchSuggestion\Suggestion.cpp" />
     <ClCompile Include="Amazon\Spiral\Spiral.cpp" />
     <ClCompile Include="Amazon\TopBuzzwords\TopBuzzwords.cpp" />
+    <ClCompile Include="Amazon\TwoSumUnique\TwoSumUnique.cpp" />
     <ClCompile Include="Amazon\TwoSum\TwoSum.cpp" />
     <ClCompile Include="Amazon\WallsAndGates\TreasureIsland.cpp" />
     <ClCompile Include="Amazon\Zombies\Zombies.cpp" />
@@ -152,6 +159,7 @@
     <ClCompile Include="General\CheapestFlights\CheapestFlights.cpp" />
     <ClCompile Include="General\CourseScheduleII\CourseScheduleII.cpp" />
     <ClCompile Include="General\CourseSchedule\CourseSchedule.cpp" />
+    <ClCompile Include="General\SpiralMatrix\SpiralMatrix.cpp" />
     <ClCompile Include="General\TimeBasedStore\TimeBasedStore.cpp" />
     <ClCompile Include="Google\KClosestPoints\KClosestPoints.cpp" />
     <ClCompile Include="Google\LargestSubarrayLengthK\LargestSubarrayLengthK.cpp" />
@@ -161,17 +169,27 @@
     <ClCompile Include="Google\OddEven\OddEven.cpp" />
     <ClCompile Include="Google\TypeTime\TypeTime.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Microsoft\ConsecutiveString\ConsecutiveString.cpp" />
+    <ClCompile Include="Microsoft\EqualPiles\EqualPiles.cpp" />
+    <ClCompile Include="Microsoft\MaxUniqueChars\MaxUniqueChars.cpp" />
+    <ClCompile Include="Microsoft\MeetingRoomsII\MeetingRoomsII.cpp" />
     <ClCompile Include="Microsoft\VisibileNodes\VisibileNodes.cpp" />
+    <ClCompile Include="Microsoft\WidestPath\WidestPath.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amazon\Amazon.h" />
+    <ClInclude Include="Amazon\Battleships\Battleships.h" />
     <ClInclude Include="Amazon\Cities\Cities.h" />
+    <ClInclude Include="Amazon\CopyListRandomNode\CopyListRandomNode.h" />
     <ClInclude Include="Amazon\CriticalConnections\CriticalConnections.h" />
+    <ClInclude Include="Amazon\DiceRollsWithSum\DiceRollsWithSum.h" />
+    <ClInclude Include="Amazon\DistinctSubstringsSizeK\DistinctSubstringsSizeK.h" />
     <ClInclude Include="Amazon\GenerateParentheses\GenerateParentheses.h" />
     <ClInclude Include="Amazon\KClosestOrigin\KClosestOrigin.h" />
     <ClInclude Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.h" />
     <ClInclude Include="Amazon\LoadBalancer\LoadBalancer.h" />
     <ClInclude Include="Amazon\LongestPalindrome\LongestPalindrome.h" />
+    <ClInclude Include="Amazon\LongestWithoutConsecutive\LongestWithoutConsecutive.h" />
     <ClInclude Include="Amazon\MaxAverageSubtree\MaxAverageSubtree.h" />
     <ClInclude Include="Amazon\MaxMinPath\MaxMinPath.h" />
     <ClInclude Include="Amazon\MergeFiles\MergeFiles.h" />
@@ -179,6 +197,7 @@
     <ClInclude Include="Amazon\MergeLists\MergeLists.h" />
     <ClInclude Include="Amazon\MostCommonWord\MostCommonWord.h" />
     <ClInclude Include="Amazon\NumberClusters\NumberClusters.h" />
+    <ClInclude Include="Amazon\OptimalUtilization\OptimalUtilization.h" />
     <ClInclude Include="Amazon\PairWithSum\PairWithSum.h" />
     <ClInclude Include="Amazon\PartitionLabels\PartitionLabels.h" />
     <ClInclude Include="Amazon\RearrangeKDistance\RearrangeKDistance.h" />
@@ -188,6 +207,7 @@
     <ClInclude Include="Amazon\SearchSuggestion\Suggestion.h" />
     <ClInclude Include="Amazon\Spiral\Spiral.h" />
     <ClInclude Include="Amazon\TopBuzzwords\TopBuzzwords.h" />
+    <ClInclude Include="Amazon\TwoSumUnique\TwoSumUnique.h" />
     <ClInclude Include="Amazon\TwoSum\TwoSum.h" />
     <ClInclude Include="Amazon\WallsAndGates\TreasureIsland.h" />
     <ClInclude Include="Amazon\Zombies\Zombies.h" />
@@ -199,6 +219,7 @@
     <ClInclude Include="General\CourseScheduleII\CourseScheduleII.h" />
     <ClInclude Include="General\CourseSchedule\CourseSchedule.h" />
     <ClInclude Include="General\General.h" />
+    <ClInclude Include="General\SpiralMatrix\SpiralMatrix.h" />
     <ClInclude Include="General\TimeBasedStore\TimeBasedStore.h" />
     <ClInclude Include="Google\Google.h" />
     <ClInclude Include="Google\KClosestPoints\KClosestPoints.h" />
@@ -208,8 +229,13 @@
     <ClInclude Include="Google\MaxLevelSum\MaxLevelSum.h" />
     <ClInclude Include="Google\OddEven\OddEven.h" />
     <ClInclude Include="Google\TypeTime\TypeTime.h" />
+    <ClInclude Include="Microsoft\ConsecutiveString\ConsecutiveString.h" />
+    <ClInclude Include="Microsoft\EqualPiles\EqualPiles.h" />
+    <ClInclude Include="Microsoft\MaxUniqueChars\MaxUniqueChars.h" />
+    <ClInclude Include="Microsoft\MeetingRoomsII\MeetingRoomsII.h" />
     <ClInclude Include="Microsoft\Microsoft.h" />
     <ClInclude Include="Microsoft\VisibileNodes\VisibileNodes.h" />
+    <ClInclude Include="Microsoft\WidestPath\WidestPath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

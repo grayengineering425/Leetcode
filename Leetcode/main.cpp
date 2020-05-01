@@ -15,9 +15,7 @@ using namespace DataStructures;
 
 int main()
 {
-	std::string time = "??:??";
+	LongestWithoutConsecutive l;
 
-	MaximumTime m;
-
-	std::cout << m.getMaximum(time) << std::endl;
+	l.getLongest(0, 8, 11);
 }
