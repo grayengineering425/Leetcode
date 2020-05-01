@@ -15,7 +15,7 @@ using namespace DataStructures;
 
 int main()
 {
-	LongestWithoutConsecutive l;
+	PointOfLattice p;
 
-	l.getLongest(0, 8, 11);
+	std::cout << p.getPoint(-1,3,3,1) << std::endl;
 }

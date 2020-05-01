@@ -24,3 +24,4 @@
 #include "Amazon/TwoSumUnique/TwoSumUnique.h"
 #include "Amazon/DistinctSubstringsSizeK/DistinctSubstringsSizeK.h"
 #include "Amazon/LongestWithoutConsecutive/LongestWithoutConsecutive.h"
+#include "Amazon/PointOfLattice/PointOfLattice.h"

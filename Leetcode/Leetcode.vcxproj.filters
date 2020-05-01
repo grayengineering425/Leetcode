@@ -185,6 +185,9 @@
     <Filter Include="Amazon\LongestWithoutConsecutive">
       <UniqueIdentifier>{23574842-1711-4ec9-a44b-e3574016ec46}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\PointOfLattice">
+      <UniqueIdentifier>{b1450f01-36bc-4a76-93f8-e00da0bbdc81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -354,6 +357,9 @@
     </ClCompile>
     <ClCompile Include="Amazon\LongestWithoutConsecutive\LongestWithoutConsecutive.cpp">
       <Filter>Amazon\LongestWithoutConsecutive</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\PointOfLattice\PointOfLattice.cpp">
+      <Filter>Amazon\PointOfLattice</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -533,6 +539,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\LongestWithoutConsecutive\LongestWithoutConsecutive.h">
       <Filter>Amazon\LongestWithoutConsecutive</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\PointOfLattice\PointOfLattice.h">
+      <Filter>Amazon\PointOfLattice</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
