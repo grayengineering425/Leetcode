@@ -25,3 +25,6 @@
 #include "Amazon/DistinctSubstringsSizeK/DistinctSubstringsSizeK.h"
 #include "Amazon/LongestWithoutConsecutive/LongestWithoutConsecutive.h"
 #include "Amazon/PointOfLattice/PointOfLattice.h"
+#include "Amazon/NthGP/NthGP.h"
+#include "Amazon/MinCostRepairEdges/MinCostRepairEdges.h"
+#include "Amazon/FavoriteGenres/FavoriteGenres.h"

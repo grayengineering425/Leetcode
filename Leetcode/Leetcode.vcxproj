@@ -125,6 +125,7 @@
     <ClCompile Include="Amazon\CriticalConnections\CriticalConnections.cpp" />
     <ClCompile Include="Amazon\DiceRollsWithSum\DiceRollsWithSum.cpp" />
     <ClCompile Include="Amazon\DistinctSubstringsSizeK\DistinctSubstringsSizeK.cpp" />
+    <ClCompile Include="Amazon\FavoriteGenres\FavoriteGenres.cpp" />
     <ClCompile Include="Amazon\GenerateParentheses\GenerateParentheses.cpp" />
     <ClCompile Include="Amazon\KClosestOrigin\KClosestOrigin.cpp" />
     <ClCompile Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.cpp" />
@@ -136,12 +137,15 @@
     <ClCompile Include="Amazon\MergeFiles\MergeFiles.cpp" />
     <ClCompile Include="Amazon\MergeIntervals\MergeIntervals.cpp" />
     <ClCompile Include="Amazon\MergeLists\MergeLists.cpp" />
+    <ClCompile Include="Amazon\MinCostRepairEdges\MinCostRepairEdges.cpp" />
     <ClCompile Include="Amazon\MostCommonWord\MostCommonWord.cpp" />
+    <ClCompile Include="Amazon\NthGP\NthGP.cpp" />
     <ClCompile Include="Amazon\NumberClusters\NumberClusters.cpp" />
     <ClCompile Include="Amazon\OptimalUtilization\OptimalUtilization.cpp" />
     <ClCompile Include="Amazon\PairWithSum\PairWithSum.cpp" />
     <ClCompile Include="Amazon\PartitionLabels\PartitionLabels.cpp" />
     <ClCompile Include="Amazon\PointOfLattice\PointOfLattice.cpp" />
+    <ClCompile Include="Amazon\PrisonCells\PrisonCells.cpp" />
     <ClCompile Include="Amazon\RearrangeKDistance\RearrangeKDistance.cpp" />
     <ClCompile Include="Amazon\ReorderData\ReorderData.cpp" />
     <ClCompile Include="Amazon\RepairEdges\RepairEdges.cpp" />
@@ -185,6 +189,7 @@
     <ClInclude Include="Amazon\CriticalConnections\CriticalConnections.h" />
     <ClInclude Include="Amazon\DiceRollsWithSum\DiceRollsWithSum.h" />
     <ClInclude Include="Amazon\DistinctSubstringsSizeK\DistinctSubstringsSizeK.h" />
+    <ClInclude Include="Amazon\FavoriteGenres\FavoriteGenres.h" />
     <ClInclude Include="Amazon\GenerateParentheses\GenerateParentheses.h" />
     <ClInclude Include="Amazon\KClosestOrigin\KClosestOrigin.h" />
     <ClInclude Include="Amazon\KDistinctSubstrings\KDistinctSubstrings.h" />
@@ -196,12 +201,15 @@
     <ClInclude Include="Amazon\MergeFiles\MergeFiles.h" />
     <ClInclude Include="Amazon\MergeIntervals\MergeIntervals.h" />
     <ClInclude Include="Amazon\MergeLists\MergeLists.h" />
+    <ClInclude Include="Amazon\MinCostRepairEdges\MinCostRepairEdges.h" />
     <ClInclude Include="Amazon\MostCommonWord\MostCommonWord.h" />
+    <ClInclude Include="Amazon\NthGP\NthGP.h" />
     <ClInclude Include="Amazon\NumberClusters\NumberClusters.h" />
     <ClInclude Include="Amazon\OptimalUtilization\OptimalUtilization.h" />
     <ClInclude Include="Amazon\PairWithSum\PairWithSum.h" />
     <ClInclude Include="Amazon\PartitionLabels\PartitionLabels.h" />
     <ClInclude Include="Amazon\PointOfLattice\PointOfLattice.h" />
+    <ClInclude Include="Amazon\PrisonCells\PrisonCells.h" />
     <ClInclude Include="Amazon\RearrangeKDistance\RearrangeKDistance.h" />
     <ClInclude Include="Amazon\ReorderData\ReorderData.h" />
     <ClInclude Include="Amazon\RepairEdges\RepairEdges.h" />

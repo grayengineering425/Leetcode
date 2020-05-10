@@ -15,9 +15,6 @@ public:
 	int maximumMinimumPath();
 
 private:
-	std::pair<int, int> getMaxDistance(std::vector<std::vector<int>>& dist, std::vector<std::vector<bool>>& visited);
-
-private:
 	std::vector<std::vector<int>> grid;
 };
 

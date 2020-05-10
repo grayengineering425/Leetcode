@@ -3,7 +3,7 @@
 
 namespace Amazon
 {
-
+//https://leetcode.com/discuss/interview-question/370157
 class KDistinctSubstrings
 {
 public:

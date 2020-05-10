@@ -188,6 +188,18 @@
     <Filter Include="Amazon\PointOfLattice">
       <UniqueIdentifier>{b1450f01-36bc-4a76-93f8-e00da0bbdc81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\NthGP">
+      <UniqueIdentifier>{d312cb76-8544-4018-b86c-2c7d6cf5a117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\MinCostRepairEdges">
+      <UniqueIdentifier>{1d2f0b5d-2767-4eb4-ab12-87c70d0fca81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\PrisonCells">
+      <UniqueIdentifier>{bfcdaa61-0cd3-4988-8be2-694cf9d6bbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amazon\FavoriteGenres">
+      <UniqueIdentifier>{c1feb794-30c8-461c-ad70-cd94ceb6becd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -360,6 +372,18 @@
     </ClCompile>
     <ClCompile Include="Amazon\PointOfLattice\PointOfLattice.cpp">
       <Filter>Amazon\PointOfLattice</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\NthGP\NthGP.cpp">
+      <Filter>Amazon\NthGP</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\MinCostRepairEdges\MinCostRepairEdges.cpp">
+      <Filter>Amazon\MinCostRepairEdges</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\PrisonCells\PrisonCells.cpp">
+      <Filter>Amazon\PrisonCells</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\FavoriteGenres\FavoriteGenres.cpp">
+      <Filter>Amazon\FavoriteGenres</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -542,6 +566,18 @@
     </ClInclude>
     <ClInclude Include="Amazon\PointOfLattice\PointOfLattice.h">
       <Filter>Amazon\PointOfLattice</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\NthGP\NthGP.h">
+      <Filter>Amazon\NthGP</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\MinCostRepairEdges\MinCostRepairEdges.h">
+      <Filter>Amazon\MinCostRepairEdges</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\PrisonCells\PrisonCells.h">
+      <Filter>Amazon\PrisonCells</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\FavoriteGenres\FavoriteGenres.h">
+      <Filter>Amazon\FavoriteGenres</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
