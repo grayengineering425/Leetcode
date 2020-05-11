@@ -28,3 +28,4 @@
 #include "Amazon/NthGP/NthGP.h"
 #include "Amazon/MinCostRepairEdges/MinCostRepairEdges.h"
 #include "Amazon/FavoriteGenres/FavoriteGenres.h"
+#include "Amazon/Battleships/Battleships.h"

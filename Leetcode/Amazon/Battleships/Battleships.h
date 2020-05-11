@@ -9,7 +9,7 @@ class Battleships
 public:
 	Battleships();
 
-	std::string getInfo(int n, const std::string& s, const std::string& t);
+	std::string getResult(std::string& S, std::string& T);
 };
 
 }
