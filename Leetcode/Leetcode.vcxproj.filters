@@ -200,6 +200,9 @@
     <Filter Include="Amazon\FavoriteGenres">
       <UniqueIdentifier>{c1feb794-30c8-461c-ad70-cd94ceb6becd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Amazon\MinMaxPath">
+      <UniqueIdentifier>{7afe529c-aa10-4e35-b241-36525f97e249}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -384,6 +387,9 @@
     </ClCompile>
     <ClCompile Include="Amazon\FavoriteGenres\FavoriteGenres.cpp">
       <Filter>Amazon\FavoriteGenres</Filter>
+    </ClCompile>
+    <ClCompile Include="Amazon\MinMaxPath\MinMaxPath.cpp">
+      <Filter>Amazon\MinMaxPath</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -578,6 +584,9 @@
     </ClInclude>
     <ClInclude Include="Amazon\FavoriteGenres\FavoriteGenres.h">
       <Filter>Amazon\FavoriteGenres</Filter>
+    </ClInclude>
+    <ClInclude Include="Amazon\MinMaxPath\MinMaxPath.h">
+      <Filter>Amazon\MinMaxPath</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

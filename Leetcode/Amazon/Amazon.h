@@ -29,3 +29,4 @@
 #include "Amazon/MinCostRepairEdges/MinCostRepairEdges.h"
 #include "Amazon/FavoriteGenres/FavoriteGenres.h"
 #include "Amazon/Battleships/Battleships.h"
+#include "Amazon/MinMaxPath/MinMaxPath.h"

@@ -138,6 +138,7 @@
     <ClCompile Include="Amazon\MergeIntervals\MergeIntervals.cpp" />
     <ClCompile Include="Amazon\MergeLists\MergeLists.cpp" />
     <ClCompile Include="Amazon\MinCostRepairEdges\MinCostRepairEdges.cpp" />
+    <ClCompile Include="Amazon\MinMaxPath\MinMaxPath.cpp" />
     <ClCompile Include="Amazon\MostCommonWord\MostCommonWord.cpp" />
     <ClCompile Include="Amazon\NthGP\NthGP.cpp" />
     <ClCompile Include="Amazon\NumberClusters\NumberClusters.cpp" />
@@ -202,6 +203,7 @@
     <ClInclude Include="Amazon\MergeIntervals\MergeIntervals.h" />
     <ClInclude Include="Amazon\MergeLists\MergeLists.h" />
     <ClInclude Include="Amazon\MinCostRepairEdges\MinCostRepairEdges.h" />
+    <ClInclude Include="Amazon\MinMaxPath\MinMaxPath.h" />
     <ClInclude Include="Amazon\MostCommonWord\MostCommonWord.h" />
     <ClInclude Include="Amazon\NthGP\NthGP.h" />
     <ClInclude Include="Amazon\NumberClusters\NumberClusters.h" />
